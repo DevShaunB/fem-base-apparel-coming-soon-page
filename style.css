@@ -1,0 +1,32 @@
+/* VARIABLES */
+
+:root {
+  /* COLORS */
+
+  /* PRIMARY */
+
+  --clr-red-200: 0 36% 70%;
+  --clr-red-300: 0 93% 68%;
+
+  /* NEUTRAL */
+
+  --clr-red-700: 0 6% 24%;
+
+  /* GRADIENTS */
+
+  --clr-white: 0 0% 100%;
+  --clr-red-50: 0 100% 98%;
+  --grad-bg: linear-gradient(
+    135deg,
+    hsl(var(--clr-white)),
+    hsl(var(--clr-red-50))
+  );
+
+  --clr-red-100: 0 80% 86%;
+  --clr-red-150: 0 74% 74%;
+  --grad-btn: linear-gradient(
+    135deg,
+    hsl(var(--clr-red-100)),
+    hsl(var(--clr-red-200))
+  );
+}
