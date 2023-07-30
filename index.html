@@ -1,26 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  
-  <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
 
-  We're coming soon
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__logo-wrapper">
+          <img
+            src="./images/logo.svg"
+            alt="Base Apparel"
+            class="header__logo"
+          />
+        </div>
+      </div>
+    </header>
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+    <main class="main">
+      <div class="hero">
+        <div class="container">
+          <div class="hero__img-wrapper">
+            <picture>
+              <source
+                media="(min-width:376px)"
+                srcset="./images/hero-desktop.jpg"
+              />
+              <img
+                src="./images/hero-mobile.jpg"
+                alt="Gabrielle Essence Eau De Parfum"
+                style="width: auto"
+                class="hero__img"
+              />
+            </picture>
+          </div>
 
-  Email Address
-</body>
+          <div class="hero__content">
+            <h1 class="title"><span>We're</span> coming soon</h1>
+            <p class="hero__desc">
+              Hello fellow shoppers! We're currently building our new fashion
+              store. Add your email below to stay up-to-date with announcements
+              and our launch deals.
+            </p>
+          </div>
+
+          <form class="hero__sub-form">
+            <input
+              type="email"
+              id="email"
+              class="hero__input"
+              name="email"
+              placeholder="Email Address"
+            />
+            <p class="hero__error-msg">Please provide a valid email</p>
+            <div class="hero__error-icon-wrapper">
+              <img src="./images/icon-error.svg" alt="" />
+            </div>
+            <button type="submit" class="hero__submit-btn">
+              <span class="sr-only">Submit</span
+              ><img src="./images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
