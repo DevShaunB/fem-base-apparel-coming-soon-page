@@ -69,3 +69,11 @@ button {
   outline: transparent;
   cursor: pointer;
 }
+
+/* BASE */
+
+body {
+  font-family: var(--ff-sans);
+  background: var(--grad-bg);
+  color: hsl(var(--clr-red-200));
+}
