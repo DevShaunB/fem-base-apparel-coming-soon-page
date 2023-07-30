@@ -38,3 +38,34 @@
   --fw-regular: 400;
   --fw-semibold: 600;
 }
+
+/* RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  display: block;
+  background: transparent;
+  color: inherit;
+  border: none;
+  outline: transparent;
+  cursor: pointer;
+}
