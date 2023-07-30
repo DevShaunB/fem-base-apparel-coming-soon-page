@@ -29,4 +29,12 @@
     hsl(var(--clr-red-100)),
     hsl(var(--clr-red-200))
   );
+
+  /* FONT */
+
+  --ff-sans: 'Josefin Sans', sans-serif;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-semibold: 600;
 }
