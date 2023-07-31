@@ -249,4 +249,19 @@ header {
     font-size: 1rem;
     line-height: 1.75;
   }
+
+  /* SUBSCRIBE FORM */
+
+  .hero__sub-form {
+    margin-top: 2.5em;
+  }
+
+  .hero__input {
+    font-size: 1rem;
+    margin: 1.31em 0 1.31em 2em;
+  }
+
+  .hero__submit-btn {
+    padding: 1.125em 2.688em 1.125em 2.812em;
+  }
 }
