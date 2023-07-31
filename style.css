@@ -182,3 +182,19 @@ header {
   border: 1px solid hsl(var(--clr-red-200));
   border-radius: 5em;
 }
+
+/* ERROR */
+
+.hero__sub-form.error .hero__error-msg,
+.hero__sub-form.error .hero__error-icon-wrapper {
+  display: block;
+}
+
+.hero__sub-form.error {
+  border: 2px solid hsl(var(--clr-red-300));
+}
+
+.hero__sub-form.error .hero__submit-btn {
+  margin: -2px;
+  margin-left: 0;
+}
