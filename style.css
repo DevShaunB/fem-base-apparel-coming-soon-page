@@ -135,3 +135,50 @@ header {
   font-size: 0.875rem;
   line-height: 1.6;
 }
+
+/* SUBSCRIBE FORM */
+
+.hero__sub-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-block: 2em 3em;
+  border: 1px solid hsl(var(--clr-red-200));
+  border-radius: 5em;
+}
+
+.hero__input {
+  flex: 1;
+  font-size: 0.875rem;
+  background: transparent;
+  color: hsl(var(--clr-red-700));
+  margin: 1em 0 1em 1.5em;
+  border: transparent;
+  outline: transparent;
+}
+
+.hero__input::placeholder {
+  color: hsl(var(--clr-red-200));
+}
+
+.hero__error-msg {
+  font-size: 0.8125rem;
+  position: absolute;
+  bottom: -1.615em;
+  color: hsl(var(--clr-red-300));
+  margin-left: 1.5em;
+}
+
+.hero__error-icon-wrapper,
+.hero__error-msg {
+  display: none;
+}
+
+.hero__submit-btn {
+  background: var(--grad-btn);
+  margin: -1px -1px -1px 0;
+  padding: 0.875em 1.5625em 0.875em 1.6875em;
+  border: 1px solid hsl(var(--clr-red-200));
+  border-radius: 5em;
+}
