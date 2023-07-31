@@ -111,6 +111,11 @@ header {
 
 /* HERO SECTION */
 
+.hero__img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .hero__content {
   text-align: center;
   margin-block: 4em 2em;
