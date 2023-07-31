@@ -92,3 +92,9 @@ body {
   background: var(--grad-bg);
   color: hsl(var(--clr-red-200));
 }
+
+.container {
+  max-width: 31.5em;
+  margin-inline: auto;
+  padding-inline: 2em;
+}
