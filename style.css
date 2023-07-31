@@ -213,4 +213,14 @@ header {
     margin-left: 10.31em;
     padding: 0;
   }
+
+  /* HEADER */
+
+  header {
+    margin-block: 4em 8.2em;
+  }
+
+  .header__logo-wrapper {
+    max-width: 9.875em;
+  }
 }
