@@ -203,3 +203,14 @@ header {
   margin: -2px;
   margin-left: 0;
 }
+
+@media screen and (min-width: 40em) {
+  /* BASE */
+
+  .container {
+    max-width: 27.81em;
+    margin: 0;
+    margin-left: 10.31em;
+    padding: 0;
+  }
+}
