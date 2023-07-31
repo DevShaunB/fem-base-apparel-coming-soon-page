@@ -188,6 +188,12 @@ header {
   border-radius: 5em;
 }
 
+.hero__submit-btn:where(:hover, :focus) {
+  scale: 1.1;
+  box-shadow: 0 1em 1em hsl(var(--clr-red-200) / 0.5);
+  border: transparent;
+}
+
 /* ERROR */
 
 .hero__sub-form.error .hero__error-msg,
